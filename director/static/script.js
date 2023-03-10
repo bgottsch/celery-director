@@ -181,6 +181,7 @@ const store = new Vuex.Store({
 
 Vue.filter("formatDate", function (value) {
   if (value) {
+    // review
     return moment.utc(value).local().format("YYYY-MM-DD HH:mm:ss Z");
   }
 });
