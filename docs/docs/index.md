@@ -26,7 +26,7 @@ The objective is to make Celery easier to use by providing :
 
 ## Installation
 
-Install the latest version of Director with pip (requires at least `Python 3.7`):
+Install the latest version of Director with pip (requires at least `Python 3.8`):
 
 ```bash
 pip install celery-director
@@ -88,7 +88,7 @@ $ curl --header "Content-Type: application/json" \
 
 You can also use the WebUI to execute your workflows:
 
-![Execute Workflow](../img/execute_workflow.png)
+![Execute Workflow](img/execute_workflow.png)
 
 ## Project layout
 
